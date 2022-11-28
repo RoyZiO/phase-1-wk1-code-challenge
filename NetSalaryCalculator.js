@@ -6,8 +6,8 @@
 //Remember that one must run the code 'npm install prompt-sync' in the terminal to enable the use of the prompt
 
 
-const promptgrossSalary = require(`prompt-sync`)();
-let employeeSalary = promptgrossSalary("Enter employeeSalary:")
+const promptemployeeSalary = require(`prompt-sync`)();
+let employeeSalary = promptemployeeSalary("Enter employeeSalary:")
 const promptBenefits = require(`prompt-sync`)();
 let benefits = promptBenefits("Enter benefits:")
 
