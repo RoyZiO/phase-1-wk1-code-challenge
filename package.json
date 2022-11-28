@@ -1,0 +1,22 @@
+{
+"name": "phase-1-wk1-code-challenge",
+    "version": "1.0.0",
+    "description": "Phase One: Week One Code Challenge",
+    "main": "index.js",
+    "scripts": {
+      "test": "npm start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "speed.js"
+    },
+    "keywords": [
+      "grade",
+      "speed",
+      "salary"
+  
+    ],
+    "author": "Roy Nzioki Ngei",
+    "license": "GNU General"
+  }
+  
