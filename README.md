@@ -1,4 +1,4 @@
-# PHASE ONE: wEEK 1 CODE CHALLENGE
+# PHASE ONE: WEEK 1 CODE CHALLENGE
 
 # Week One Code Challenge
 
@@ -52,28 +52,28 @@ The function also contains three variables: the speedLimit, which is 70, speedRa
 Instructions: 
 Write a program whose major task is to calculate a individual's Net Salary by getting the inputs of basic salary and benefits. calculate the payee(i.e. tax), NHIF Deductions, NSSF Deducations, gross salary, and net salary. 
 
-To successfully execute this code, make sure you run npm install prompt-sync in the terminal to generate a prompt asking the user for input. 
+- To successfully execute this code, make sure you run npm install prompt-sync in the terminal to generate a prompt asking the user for input. 
 
 
-Before enything else, I used the prompt method to develop a net salary calculator in the terminal. Therefore, to acquire the user imput in Node,js, you need to use the prompt() function sync module by entering the following code in the terminal: npm install prompt-sync.
+- Before enything else, I used the prompt method to develop a net salary calculator in the terminal. Therefore, to acquire the user imput in Node,js, you need to use the prompt() function sync module by entering the following code in the terminal: npm install prompt-sync.
 
 
-I then used the prompt() function to declare the basic salary, for which which I assigned the word employeeSalary as the variable name. I also declared the employee benefits using the term 'benefits. The prompt function would ask the employee/user to input their basic salary and benefits, then use this data to calculate net salary and other relevant variables.
+- I then used the prompt() function to declare the basic salary, for which which I assigned the word employeeSalary as the variable name. I also declared the employee benefits using the term 'benefits. The prompt function would ask the employee/user to input their basic salary and benefits, then use this data to calculate net salary and other relevant variables.
 
 
-In addition, I created the function 'netSalaryCalculator()' to calculate various information that are relevant in the tabulation of net salary, while also presenting the information in a tabular data structure, accompanied by a string informing the employee of their net salary (): (`Your net salary is ${netPay} Ksh.`). 
+- In addition, I created the function 'netSalaryCalculator()' to calculate various information that are relevant in the tabulation of net salary, while also presenting the information in a tabular data structure, accompanied by a string informing the employee of their net salary (): (`Your net salary is ${netPay} Ksh.`). 
 
 
-In addition, I created a function 'calculateNhif' to calculate NHIF deductions based on the user/employee's gross salary. The function utilized data from Aren: https://www.aren.co.ke/payroll/taxrates.htm, and returns total NHIF deductibles based on the aforementioned information. 
+- I then created a function 'calculateNhif' to calculate NHIF deductions based on the user/employee's gross salary. The function utilized data from Aren: https://www.aren.co.ke/payroll/taxrates.htm, and returns total NHIF deductibles based on the aforementioned information. 
 
 
-Next, I created the functions 'calculateNssf()' and 'calculatePaye()' to calculate NSSF deductibles based on gross salary, and PAYE based on a user/employee's taxable income, respectively. 
+- Next, I created the functions 'calculateNssf()' and 'calculatePaye()' to calculate NSSF deductibles based on gross salary, and PAYE based on a user/employee's taxable income, respectively. 
 
 
-Lastly, I then called the function netSalaryCalculator()' to complete the relevant calculations and tabulations. 
+- Lastly, I then called the function netSalaryCalculator()' to complete the relevant calculations and tabulations. 
 
 
-If you type the command: node NetSalaryCalculator.js on the terminal, the program will ask for employeeSalary (basic salary) and benefits before calculating gross salary, NHIF deductibles, NSSF deductibles, tacable income, and total taxes levied (PAYE),  
+- If you type the command: node NetSalaryCalculator.js on the terminal, the program will ask for employeeSalary (basic salary) and benefits before calculating gross salary, NHIF deductibles, NSSF deductibles, tacable income, and total taxes levied (PAYE),  
 
 
 
