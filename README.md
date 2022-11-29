@@ -16,7 +16,9 @@ A > 79, B - 60 to 79, C - 59 to 49, D - 40 to 49, E - less than 40.
 
 - Moreover, I implemented the if...else method to assign a grade to the correct range of values, whereby marks over 79 were graded "A", between 60 to 78 graded "B", and so forth.
 
-- The program would then return a string value containing the grades of a student based on the marks they scored, with the result being "A" or "B" and so forth
+- The program would then return a string value containing the grades of a student based on the marks they scored, with the result being "A" or "B" and so forth.
+
+- Finally, use console.log(studentGrade()) to log in scored marks into the function, thereby determining the grade
 
 
 
@@ -36,6 +38,8 @@ The function also contains three variables: the speedLimit, which is 70, speedRa
 - I then created a for loop which repeats the awarding of demerit points according to the amount exceeded over the speed limit. 
 
 - The if statement was used to return the string "Points: (accumulated demerit points), up until the accumulated points exceed 12, afterwhich the condition is evaluated to false, returning the message "License suspended".
+
+- Finally, run console.log(speedDetector(carSpeed)) to log in a particular driver's speed and determine whether it is "OK", or the number of demerit points, or whether the driver's license is suspended,
 
 
 
@@ -59,7 +63,9 @@ Write a program whose major task is to calculate a individual's Net Salary by ge
 - I then used the prompt() function to declare the basic salary, for which which I assigned the word employeeSalary as the variable name. I also declared the employee benefits using the term 'benefits. The prompt function would ask the employee/user to input their basic salary and benefits, then use this data to calculate net salary and other relevant variables.
 
 
-- In addition, I created the function 'netSalaryCalculator()' to calculate various information that are relevant in the tabulation of net salary, while also presenting the information in a tabular data structure, accompanied by a string informing the employee of their net salary (): (`Your net salary is ${netPay} Ksh.`). 
+- In addition, I created the function 'netSalaryCalculator()' to calculate various information that are relevant in the tabulation of net salary, while also presenting the information in a tabular data structure, accompanied by a logged string informing the employee of their net salary (): (`Your net salary is ${netPay} Ksh.`). 
+
+- I used console.table(result) to dispay the result in a tabular data structure.
 
 
 - I then created a function 'calculateNhif' to calculate NHIF deductions based on the user/employee's gross salary. The function utilized data from Aren: https://www.aren.co.ke/payroll/taxrates.htm, and returns total NHIF deductibles based on the aforementioned information. 
