@@ -2,12 +2,10 @@
 
 # Week One Code Challenge
 
-## Getting Started
-
 
 This week's code challenge features three toy problems, namely, the Student Grade Generator, the Speed Detector, and the Net Salary Calculator
 
-### Challenge 1: Student Grade Generator (Toy Problem)
+## Challenge 1: Student Grade Generator (Toy Problem)
 
 - The Challenge was to come up with a program that prompts users to enter marks scored by students. The program would the assign a grade to each marks scored, according to the following system:
  
@@ -24,7 +22,7 @@ A > 79, B - 60 to 79, C - 59 to 49, D - 40 to 49, E - less than 40.
 
 
 
-### Challenge 2: Speed Detector (Toy Problem)
+## Challenge 2: Speed Detector (Toy Problem)
 
 - The challenge was to develop a program that enables the input of the speed of a vehicle, whereby the program prints "OK" if the speeds are under 70 (the speed limit). 
 
@@ -77,7 +75,7 @@ Write a program whose major task is to calculate a individual's Net Salary by ge
 
 
 
-### Running the Application
+## Running the Application
 
 Running the applications is straightforward requiring one step:
 
@@ -85,7 +83,7 @@ Running the applications is straightforward requiring one step:
 
 
 
-### Authors
+## Author(s)
 
 This project was contributed by:
 
@@ -93,7 +91,7 @@ Roy Nzioki Ngei: https://github.com/RoyZiO
 
 
 
-### License
+## License
 
 The project is licensed under the GNU General Public License
  
